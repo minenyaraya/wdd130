@@ -1,0 +1,151 @@
+#content{
+    width: 1600px;
+    align-items: center;
+    align-content: center;
+    }
+   
+header {
+  display: grid;
+  grid-template-columns: 3px auto; 
+  background-color: black;
+  align-content: center;
+
+ 
+}
+header a{
+  font-family: cursive;
+  font-size: medium;
+  text-align: center;
+  text-decoration: none;
+  color: antiquewhite;
+}
+.mibaby{
+  margin-left: 0%;
+  width: 550px;
+  display: block;
+}
+.empathy-title{
+  background-color: rgb(92, 81, 67);
+  width: 250px;
+  height: 60px;
+  font-family: cursive;
+  font-style: italic;
+  font-size: 200%;
+  text-align: center;
+  align-content: center;
+  margin-top: -350px;
+  margin-left: 480px;
+  position: absolute;
+}
+h4{
+  width: 900px;
+  font-family: cursive;
+  font-style: italic;
+  font-size: 140%;
+  text-align: center;
+  align-content: center;
+  margin-top: -320px;
+  margin-left: 600px;
+  position: absolute; 
+
+}
+.empathyhome{
+  width: 800px;
+  height: 600px;
+  font-family: cursive;
+  font-style: italic;
+  font-size: 100%;
+  text-align: center;
+  align-content: center;
+  margin-top: -260px;
+  margin-left: 600px;
+  position: absolute;
+
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: rgb(239, 227, 211);
+  font-family: cursive;
+  text-align: center;
+  font-size: 22px;  
+}
+.appa{
+  height: 800px;
+  margin-left: 5%;
+  margin-top: 40px;
+  position: absolute;
+}
+
+
+textarea{
+  background-color:#ccc5b4;
+  width: 800px;
+  height: 800px;
+  margin-top: 40px;
+  margin-left: -800px;
+  position: absolute;
+}
+h5{
+  max-width: max-content;
+  margin-top: 940px;
+  padding: 25px 50px;
+  margin-left: 800px;
+  align-items: center;
+  position: absolute;
+  font-family: cursive;
+  text-align: center;
+  font-size: 30px;  
+
+}
+
+footer {
+    max-width: max-content;
+    margin-top: 940px;
+    padding: 25px 50px;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+  }
+  
+  footer a{
+    width: 300px;
+    color: rgb(58, 47, 38);
+    text-decoration: none;
+    margin-top: 0%;
+  
+  
+  }
+  
+  .logo {
+    width: 100px;
+    margin-top: 0;
+    padding: 0;
+    border-style: double;
+    border-color: white;
+  }
+  
+  footer p {
+    font-size: 1.2em;
+    margin-top: -5.5%;
+    margin-left: 0%;
+  }
+    
+  footer p a:hover {
+    text-decoration: underline;
+    align-content: center;
+    margin-bottom: 0%;
+  }
+  .social img{
+    width: 60px;
+    margin-top: -10px;
+    margin-bottom: 05%;
+    margin-left: 300px;
+    margin-left: auto;
+    }
+  nav {
+  display: flex;
+  justify-content: space-around;
+  }
+  

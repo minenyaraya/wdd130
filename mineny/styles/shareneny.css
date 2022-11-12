@@ -1,0 +1,164 @@
+#content{
+    max-width: 1600px;
+    align-items: center;
+    align-content: center;
+    }
+   
+header {
+  display: grid;
+  grid-template-columns: 3px auto; 
+  background-color: black;
+  align-content: center;
+
+ 
+}
+header a{
+  font-family: cursive;
+  font-size: medium;
+  text-align: center;
+  text-decoration: none;
+  color: antiquewhite;
+}
+nav a{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.gatitosmuyflojos{
+  margin-left: 0%;
+  width: 550px;
+  display: block;
+}
+.Share-title{
+  background-color: rgb(92, 81, 67);
+  width: 150px;
+  height: 75px;
+  font-family: cursive;
+  font-style: italic;
+  font-size: 200%;
+  text-align: center;
+  align-content: center;
+  margin-top: -480px;
+  margin-left: 530px;
+  position: absolute;
+}
+.lunabella{
+  margin-left: 0%;
+  display: flex;
+  width: 550px;
+  margin-top: -33%;
+}
+
+h4{
+  width: 900px;
+  font-family: cursive;
+  font-style: italic;
+  font-size: 130%;
+  text-align: center;
+  align-content: center;
+  margin-top: -450px;
+  margin-left: 600px;
+  position: absolute; 
+
+}
+.sharehome{
+  width: 900px;
+  height: 600px;
+  font-family: cursive;
+  font-style: italic;
+  font-size: 120%;
+  text-align: center;
+  align-content: center;
+  margin-top: -400px;
+  margin-left: 600px;
+
+}
+
+.background2{
+  background-color: black;
+  width: 1000px;
+  height: 600px;
+  color: beige;
+  font-family: cursive;
+  font-style: italic;
+  font-size: 120%;
+  text-align: center;
+  align-content: center;
+  margin-top: -300px;
+  margin-left: 600px;
+
+}
+textarea{
+  width: 800px;
+  height: 440px;
+  margin-top: -570px;
+  margin-left: -100px;
+  position: absolute;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: rgb(239, 227, 211);
+  font-family: cursive;
+  text-align: center;
+  font-size: 22px;  
+}
+.bitoysaca{
+  display: flex;
+  width: 1000px;
+  height: 700px;
+  margin-left: 600px;
+  margin-top:0%;
+  position: absolute;
+}
+
+
+footer {
+  max-width: max-content;
+  margin-top: 10px;
+  padding: 25px 50px;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+}
+
+footer a{
+  width: 300px;
+  color: rgb(58, 47, 38);
+  text-decoration: none;
+  margin-top: 0%;
+
+
+}
+
+.logo {
+  width: 100px;
+  margin-top: 0;
+  padding: 0;
+  border-style: double;
+  border-color: white;
+}
+
+footer p {
+  font-size: 1.2em;
+  margin-top: -5.5%;
+  margin-left: 0%;
+}
+  
+footer p a:hover {
+  text-decoration: underline;
+  align-content: center;
+  margin-bottom: 0%;
+}
+.social img{
+  width: 60px;
+  margin-top: -10px;
+  margin-bottom: 05%;
+  margin-left: 300px;
+  margin-left: auto;
+  }
+nav {
+display: flex;
+justify-content: space-around;
+}

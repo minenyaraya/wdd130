@@ -108,6 +108,7 @@ nav {
 nav  {
   list-style-type: none;
   display: flex;
+ 
 
 }
 nav a {
@@ -115,6 +116,7 @@ nav a {
   min-width: 120px;
   text-decoration: none;
   padding: 10px;
+  align-content: center;
 
 }
 nav a:link, nav a:visited {
