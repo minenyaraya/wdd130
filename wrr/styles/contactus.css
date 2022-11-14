@@ -1,0 +1,286 @@
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+    }
+    
+nav a { 
+    text-decoration: none;
+    color: bisque;
+    text-align: center;
+    margin-top: 2%;  
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+#hero{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -10px;
+}
+
+#hero-img{
+    width: 100%;
+    margin-top: -100px;
+   
+}
+
+#hero-box{
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+} 
+
+#hero-msg{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 10px;
+}
+
+#hero-msg h1 {
+    text-align: center;
+   
+}
+
+
+#hero-msg h4 {
+    text-align: center;
+}
+
+
+.button-box {
+    text-align: center;
+}
+
+
+main section {
+    text-align: center;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: rgb(239, 227, 211);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;  
+}
+
+
+
+
+header {
+    display: grid;
+    grid-template-columns: 150px auto;  
+}
+
+nav a :hover{
+    background-color: rgb(97, 78, 68);
+    color: rgb(112, 110, 98);
+}
+ 
+
+.book{
+    font-family: cursive;
+    font-size: 2em;
+    background-color: rgb(206, 190, 172);
+    color: rgb(68, 58, 45);
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 15px 30px; 
+    margin-top: 50px;
+}
+
+    
+.book :hover {
+    background-color: rgb(114, 103, 89);
+    color: bisque;
+}
+  
+footer {
+    margin-top: 100px;
+    padding: 25px 50px;
+    background-color:  rgb(190, 163, 121);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+}
+    
+.home-title {
+    margin-top: 10px;
+    font-family: cursive;
+    font-size: 2em;
+    color: bisque;
+}
+   
+
+footer a{
+    color: rgb(21, 19, 17);
+    width: 100%;
+    text-decoration: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.home-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    
+}
+.logo {
+    width: 80px;
+    margin-top: 0;
+    padding: 0;
+}
+
+#logo_link{
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+.icon {
+    width: 60px;
+    margin-top: auto;
+}
+
+    
+
+footer p {
+    font-size: 1.2em;
+}
+    
+footer p a:hover {
+    text-decoration: underline;
+}
+
+
+.social img{
+    padding-top: 15px;
+    margin-bottom: 100%;
+}
+    
+
+main section img{
+    box-sizing: border-box; 
+}
+    
+
+img{
+    margin-top: 200px;
+}
+
+
+
+form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid rgb(100, 88, 64);
+    border-radius: 1em;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  form li + li {
+    margin-top: 1em;
+  }
+  
+  label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+  
+  input,
+  textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid rgb(86, 83, 66);
+  }
+  
+  input:focus,
+  textarea:focus {
+    border-color: rgb(98, 95, 75);
+  }
+  
+  textarea {
+    vertical-align: top;
+  
+    height: 5em;
+  }
+  
+  .button {
+    padding-left: 90px;
+  }
+  
+  button {
+    margin-left: 0.5em;
+  }
+
+  #feedback {
+    background-color: rgb(224, 218, 208);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;      
+}
+.moveDown {
+    margin-top: 3em;
+}
+   
+  
+@media screen and (max-width: 900px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #hero {
+        margin-top: 0;
+    }
+    #hero-msg {
+        margin-top: 0;
+    }
+    #hero-msg h4 {
+        display: none;
+    }
+    .home-title {
+        font-size: 25px;
+        color: #6f7364;
+    }
+    .rivers-card, .camping-card, .rapids-card { 
+        margin: 50px auto;
+        width: 60%;
+    }
+    #background {
+        display: none;
+    }
+    .mountains, .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    footer {
+        margin-top: 25px;
+    }
+}
