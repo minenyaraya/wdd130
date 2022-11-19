@@ -89,9 +89,9 @@ textarea{
 }
 h5{
   max-width: max-content;
-  margin-top: 940px;
+  margin-top: 810px;
   padding: 25px 50px;
-  margin-left: 800px;
+  margin-left: 80px;
   align-items: center;
   position: absolute;
   font-family: cursive;
@@ -100,23 +100,6 @@ h5{
 
 }
 
-footer {
-    max-width: max-content;
-    margin-top: 940px;
-    padding: 25px 50px;
-    justify-content: space-around;
-    align-items: center;
-    position: absolute;
-  }
-  
-  footer a{
-    width: 300px;
-    color: rgb(58, 47, 38);
-    text-decoration: none;
-    margin-top: 0%;
-  
-  
-  }
   
   .logo {
     width: 100px;
@@ -125,28 +108,44 @@ footer {
     border-style: double;
     border-color: white;
   }
-  
-  footer p {
-    font-size: 1.2em;
-    margin-top: -5.5%;
-    margin-left: 0%;
-  }
-    
-  footer p a:hover {
-    text-decoration: underline;
-    align-content: center;
-    margin-bottom: 0%;
-  }
-  .social img{
-    width: 60px;
-    margin-top: -10px;
-    margin-bottom: 05%;
-    margin-left: 300px;
-    margin-left: auto;
-    }
+ 
+ 
   nav {
   display: flex;
   justify-content: space-around;
   margin-top: 30px;
   }
+    
+footer {
+  margin-top: 900px;
+  padding: 25px 50px;
+  background-color:  rgb(190, 163, 121);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+}
+
+  footer a{
+    color: rgb(21, 19, 17);
+    width: 100%;
+    text-decoration: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+  footer p {
+    font-size: 1.2em;
+}
+    
+footer p a:hover {
+    text-decoration: underline;
+}
+
+
+.social img{
+    padding-top: 20px;
+    margin-bottom: 10%;
+}
+    
   
