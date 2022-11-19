@@ -6,7 +6,7 @@
    
 header {
   display: grid;
-  grid-template-columns: 3px auto; 
+  grid-template-columns: 30px auto; 
   background-color: black;
   align-content: center;
 
@@ -26,7 +26,7 @@ header a{
 }
 .empathy-title{
   background-color: rgb(92, 81, 67);
-  width: 250px;
+  width: 200px;
   height: 60px;
   font-family: cursive;
   font-style: italic;
@@ -81,10 +81,10 @@ body {
 
 textarea{
   background-color:#ccc5b4;
-  width: 800px;
-  height: 800px;
+  width: 760px;
+  height: 794px;
   margin-top: 40px;
-  margin-left: -800px;
+  margin-left: -728px;
   position: absolute;
 }
 h5{

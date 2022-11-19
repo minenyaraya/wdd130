@@ -6,7 +6,7 @@
    
 header {
   display: grid;
-  grid-template-columns: 3px auto; 
+  grid-template-columns: 30px auto; 
   background-color: black;
   align-content: center;
 
@@ -26,57 +26,58 @@ nav a{
 }
 .gatitosmuyflojos{
   margin-left: 0%;
-  width: 550px;
-  display: block;
+  width: 500px;
+  display: flex;
+  margin-top: 0%;
 }
 .Share-title{
   background-color: rgb(92, 81, 67);
-  width: 150px;
-  height: 75px;
+  width: 130px;
+  height: 55px;
   font-family: cursive;
   font-style: italic;
-  font-size: 200%;
+  font-size: 160%;
   text-align: center;
   align-content: center;
-  margin-top: -480px;
-  margin-left: 530px;
+  margin-top: -430px;
+  margin-left: 470px;
   position: absolute;
 }
 .lunabella{
   margin-left: 0%;
   display: flex;
-  width: 550px;
-  margin-top: -33%;
+  width: 500px;
+  margin-top: -34.5%;
 }
 
 h4{
-  width: 900px;
-  font-family: cursive;
-  font-style: italic;
-  font-size: 130%;
-  text-align: center;
-  align-content: center;
-  margin-top: -450px;
-  margin-left: 600px;
-  position: absolute; 
-
-}
-.sharehome{
-  width: 900px;
-  height: 600px;
+  width: 700px;
   font-family: cursive;
   font-style: italic;
   font-size: 120%;
   text-align: center;
   align-content: center;
-  margin-top: -400px;
-  margin-left: 600px;
+  margin-top: -360px;
+  margin-left: 650px;
+  position: absolute; 
+
+}
+.sharehome{
+  width: 700px;
+  height: 600px;
+  font-family: cursive;
+  font-style: italic;
+  font-size: 95%;
+  text-align: center;
+  align-content: center;
+  margin-top: -300px;
+  margin-left: 680px;
 
 }
 
 .background2{
   background-color: black;
-  width: 1000px;
+  width: 850px;
   height: 600px;
   color: beige;
   font-family: cursive;
@@ -89,10 +90,10 @@ h4{
 
 }
 textarea{
-  width: 800px;
+  width: 680px;
   height: 440px;
   margin-top: -570px;
-  margin-left: -100px;
+  margin-left: -50px;
   position: absolute;
 }
 body {
@@ -106,8 +107,8 @@ body {
 }
 .bitoysaca{
   display: flex;
-  width: 1000px;
-  height: 700px;
+  width: 850px;
+  height: 600px;
   margin-left: 600px;
   margin-top:0%;
   position: absolute;
