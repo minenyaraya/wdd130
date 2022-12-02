@@ -4,6 +4,20 @@
   align-items: center;
   align-content: center;
 }
+.container99 {
+  position: relative;
+  width: 1600px; /* Maximum width */
+  margin: 0 auto; /* Center it */
+}
+
+.container {
+  position: absolute; /* Position the background text */
+  margin-top: -340px; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 1600px; /* Full width */
+}
 header {
 display: grid;
 grid-template-columns: 30px auto; 
