@@ -179,7 +179,7 @@ nav a:hover {
 footer {
   margin-top: 50px;
   padding: 25px 50px;
-  background-color:  rgb(190, 163, 121);
+  background-color: black;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -187,7 +187,7 @@ footer {
   }
   
   footer a{
-    color: rgb(21, 19, 17);
+    color: bisque;
     width: 100%;
     text-decoration: none;
     justify-content: space-around;
@@ -195,10 +195,12 @@ footer {
   }
   
   footer p {
+    color: bisque;
     font-size: 1.2em;
   }
     
   footer p a:hover {
+    color: bisque;
     text-decoration: underline;
   }
   

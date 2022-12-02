@@ -143,7 +143,7 @@ justify-content: space-around;
 footer {
   margin-top: 0px;
   padding: 25px 50px;
-  background-color:  rgb(190, 163, 121);
+  background-color:  black;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -151,7 +151,7 @@ footer {
   }
   
   footer a{
-    color: rgb(21, 19, 17);
+    color: rgb(190, 175, 160);
     width: 100%;
     text-decoration: none;
     justify-content: space-around;
@@ -160,10 +160,12 @@ footer {
   
   footer p {
     font-size: 1.2em;
+    color: bisque;
   }
     
   footer p a:hover {
     text-decoration: underline;
+    color: bisque;
   }
   
   

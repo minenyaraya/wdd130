@@ -1,28 +1,33 @@
-#content{
-  width: 1600px;
-  align-items: center;
-  align-content: center;
-  }
+.container {
+  max-width: 1600px;
+  display: grid;
+  grid-template-columns: 50px 50px 50px 50px;
+  grid-template-rows: auto;
+  grid-template-areas: 
+    "header header header header"
+    "main main . sidebar"
+    "footer footer footer footer";
+      justify-content: space-evenly;    
+    }
  
 header {
 display: grid;
-grid-template-columns: 30px auto; 
+grid-template-columns: 50px auto; 
 background-color: black;
 align-content: center;
-
 
 }
 header a{
 font-family: cursive;
-font-size: medium;
+font-size: large;
 text-align: center;
 text-decoration: none;
 color: antiquewhite;
 }
 #jardinimagen
 {
-margin-left: 0%;
-width: 800px;
+margin-left: 1px;
+width: 900px;
 display: block;
 }
 .home-title{
@@ -34,8 +39,8 @@ font-style: italic;
 font-size: 200%;
 text-align: center;
 align-content: center;
-margin-top: -620px;
-margin-left: 700px;
+margin-top: -700px;
+margin-left: 800px;
 position: absolute;
 }
 h4{
@@ -45,21 +50,21 @@ font-style: italic;
 font-size: 140%;
 text-align: center;
 align-content: center;
-margin-top: -560px;
-margin-left: 880px;
+margin-top: -650px;
+margin-left: 1000px;
 position: absolute; 
 
 }
 .textodelearn{
-width: 590px;
+width: 570px;
 height: 800px;
 font-family: cursive;
 font-style: italic;
 font-size: 90%;
 text-align: center;
 align-content: center;
-margin-top: -500px;
-margin-left: 850px;
+margin-top: -600px;
+margin-left: 1000px;
 justify-content: space-around;
 
 }
@@ -73,25 +78,28 @@ text-align: center;
 font-size: 22px;  
 }
 .girls{
-width: 820px;
-margin-right: -44%;
-margin-top: -900px;
+width: 1600px;
+margin-right: -0%;
+margin-top: -400px;
 justify-content: end;
 }
 
 
 textarea{
-background-color:#ccc5b4;
+background-color:#0d110b;
+font-family: cursive;
+color: aliceblue;
 width: 600px;
-height: 750px;
-margin-top: -178px;
-display: flex;
-margin-left: 0%;
+height: 250px;
+margin-top: -100px;
+margin-left: 60%;
+position: relative
 }
 
 .logo {
   width: 100px;
   margin-top: 0;
+  margin-left: 10px;
   padding: 0;
   border-style: double;
   border-color: white;
@@ -107,7 +115,7 @@ margin-top: 30px;
 footer {
 margin-top: -8px;
 padding: 25px 50px;
-background-color:  rgb(190, 163, 121);
+background-color:  black;
 display: flex;
 justify-content: space-around;
 align-items: center;
@@ -115,7 +123,7 @@ height: 80px;
 }
 
 footer a{
-  color: rgb(21, 19, 17);
+  color: rgb(244, 240, 237);
   width: 100%;
   text-decoration: none;
   justify-content: space-around;
@@ -124,10 +132,12 @@ footer a{
 
 footer p {
   font-size: 1.2em;
+  color: bisque;
 }
   
 footer p a:hover {
   text-decoration: underline;
+  color: bisque;
 }
 
 
