@@ -1,129 +1,121 @@
-.container {
+#content{
   max-width: 1600px;
-  display: grid;
-  grid-template-columns: 50px 50px 50px 50px;
-  grid-template-rows: auto;
-  grid-template-areas: 
-    "header header header header"
-    "main main . sidebar"
-    "footer footer footer footer";
-      justify-content: space-evenly;    
-    }
+  align-items: center;
+  align-content: center;
+  }
  
 header {
-display: grid;
-grid-template-columns: 50px auto; 
-background-color: black;
-align-content: center;
+  display: grid;
+  grid-template-columns: 30px auto; 
+  background-color: black;
+  align-content: center;
+}
 
-}
 header a{
-font-family: cursive;
-font-size: large;
-text-align: center;
-text-decoration: none;
-color: antiquewhite;
+  font-family: cursive;
+  font-size: large;
+  text-align: center;
+  text-decoration: none;
+  color: #d0d0b3;
 }
-#jardinimagen
-{
-margin-left: 1px;
-width: 900px;
-display: block;
+nav a{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+#jardinimagen{
+  margin-left: 0%;
+  width: 900px;
+  display: block;
 }
 .home-title{
-background-color: rgb(92, 81, 67);
-width: 200px;
-height: 60px;
-font-family: cursive;
-font-style: italic;
-font-size: 200%;
-text-align: center;
-align-content: center;
-margin-top: -700px;
-margin-left: 800px;
-position: absolute;
+  background-color: #4f402e;
+  width: 180px;
+  height: 60px;
+  font-family: sans-serif;
+  font-style: italic;
+  text-align: center;
+  align-content: center;
+  margin-top: -690px;
+  margin-left: 740px;
+  position: absolute;
 }
 h4{
-width: 600px;
-font-family: cursive;
-font-style: italic;
-font-size: 140%;
-text-align: center;
-align-content: center;
-margin-top: -650px;
-margin-left: 1000px;
-position: absolute; 
+  width: 600px;
+  font-family: sans-serif;
+  font-style: italic;
+  font-size: 140%;
+  text-align: center;
+  align-content: center;
+  margin-top: -650px;
+  margin-left: 830px;
+  position: absolute; 
 
 }
 .textodelearn{
-width: 570px;
-height: 800px;
-font-family: cursive;
-font-style: italic;
-font-size: 90%;
-text-align: center;
-align-content: center;
-margin-top: -600px;
-margin-left: 1000px;
-justify-content: space-around;
+  width: 480px;
+  height: 840px;
+  font-family: sans-serif;
+  font-style: italic;
+  font-size: 90%;
+  text-align: center;
+  align-content: center;
+  margin-top: -600px;
+  margin-left: 900px;
+  justify-content: space-around;
 
 }
 body {
-display: flex;
-justify-content: center;
-align-content: center;
-background-color: rgb(239, 227, 211);
-font-family: cursive;
-text-align: center;
-font-size: 22px;  
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color:#d0d0be;
+  font-family: cursive;
+  text-align: center;
+  font-size: 22px;  
 }
 .girls{
-width: 1600px;
-margin-right: -0%;
-margin-top: -400px;
-justify-content: end;
+  width: 100%;
+  margin-top: -405px;
+  justify-content: end;
+  display: flex;
 }
 
-
 textarea{
-background-color:#0d110b;
-font-family: cursive;
-color: aliceblue;
-width: 600px;
-height: 250px;
-margin-top: -100px;
-margin-left: 60%;
-position: relative
+  background-color: #d0d0be;
+  width: 780px;
+  height: 440px;
+  margin-bottom: -1400px;
+  margin-left: -35%;
+  position: relative;
 }
 
 .logo {
   width: 100px;
   margin-top: 0;
-  margin-left: 10px;
   padding: 0;
   border-style: double;
-  border-color: white;
+  border-color: #d0d0be;
 }
 
-
 nav {
-display: flex;
-justify-content: space-around;
-margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
 }
   
 footer {
-margin-top: -8px;
-padding: 25px 50px;
-background-color:  black;
-display: flex;
-justify-content: space-around;
-align-items: center;
-height: 80px;
+  margin-top: -8px;
+  padding: 25px 50px;
+  background-color:  black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
 }
 
 footer a{
-  color: rgb(244, 240, 237);
+  color: #d0d0be;
   width: 100%;
   text-decoration: none;
   justify-content: space-around;
@@ -132,12 +124,12 @@ footer a{
 
 footer p {
   font-size: 1.2em;
-  color: bisque;
+  color: #d0d0be;
 }
   
 footer p a:hover {
   text-decoration: underline;
-  color: bisque;
+  color: #d0d0be;
 }
 
 

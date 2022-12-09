@@ -1,8 +1,8 @@
 #content{
-    width: 1600px;
-    align-items: center;
-    align-content: center;
-    }
+  max-width: 1600px;
+  align-items: center;
+  align-content: center;
+}
    
 header {
   display: grid;
@@ -17,65 +17,95 @@ header a{
   font-size: medium;
   text-align: center;
   text-decoration: none;
-  color: antiquewhite;
+  color: #d0d0be;
 }
 .mibaby{
   margin-left: 0%;
-  width: 700px;
-  display: flex;
+  width: 60%;
+  display: block;
 }
 .empathy-title{
-  background-color: rgb(92, 81, 67);
+  background-color: #4f402e;
   width: 200px;
   height: 60px;
-  font-family: cursive;
+  font-family: sans-serif;
   font-style: italic;
   font-size: 200%;
   text-align: center;
   align-content: center;
-  margin-top: -430px;
-  margin-left: 700px;
+  margin-top: -60px;
+  margin-left: 30%;
   position: absolute;
 }
-h4{
-  width: 900px;
-  font-family: cursive;
-  font-style: italic;
-  font-size: 140%;
-  text-align: center;
-  align-content: center;
-  margin-top: -320px;
-  margin-left: 600px;
-  position: absolute; 
 
-}
-.empathyhome{
-  width: 750px;
-  height: 650px;
-  font-family: cursive;
+.background2{
+  background-color: black;
+  width: 530px;
+  height: 800px;
+  color: #d0d0be;
+  font-family: sans-serif;
   font-style: italic;
   font-size: 120%;
   text-align: center;
   align-content: center;
-  margin-top: -360px;
-  margin-left: 700px;
-  position: absolute;
+  margin-top: -698px;
+  margin-left: 0px;
 
 }
+h4{
+  width: 900px;
+  font-family: sans-serif;
+  font-style: italic;
+  font-size: 150%;
+  text-align: center;
+  align-content: center;
+  margin-top: -540px;
+  margin-left: 1100px;
+  display: flex;
+}
+
+
+h5{
+  width: 90px;
+  font-family: sans-serif;
+  font-style: italic;
+  font-size: 200%;
+  text-align: center;
+  align-content: center;
+  margin-top: -500px;
+  margin-left: 155px;
+  display: flex;
+}
+.empathyhome{
+  display: grid;
+  grid-column: auto;
+  width: 34%;
+  height: 50%;
+  font-family: sans-serif;
+  font-style: italic;
+  font-size: 120%;
+  font-weight: 900;
+  text-align: center;
+  align-content: center;
+  margin-top: -10px;
+  margin-left: 1000px;
+}
+
+
 body {
   display: flex;
   justify-content: center;
   align-content: center;
-  background-color: rgb(239, 227, 211);
+  background-color:#d0d0be;
   font-family: cursive;
   text-align: center;
   font-size: 22px;  
 }
 .appa{
-  height: 1100px;
-  margin-left: 48%;
-  margin-top: -900px;
-  justify-content: end;
+  height: 1430px;
+  margin-left: 526px;
+  margin-top: -52.8%;
+  display: block;
 }
 #appaykatara{
   position: relative;
@@ -83,32 +113,33 @@ body {
 /* Bottom right text */
 .text-block {
   position: absolute;
-  bottom: 200px;
-  right: 90px;
-  background-color: black;
-  color: white;
+  bottom: 500px;
+  right: 10px;
+  background-color: #4f402e;
+  color: #d0d0be;
   padding-left: 20px;
   padding-right: 20px;
 }
 
 textarea{
-  background-color:#ccc5b4;
-  width: 600px;
-  height: 900px;
-  margin-top: 88px;
-  margin-left: 0px;
-  display:flex ;
+  background-color:#d0d0be;
+  width: 400px;
+  height: 600px;
+  margin-bottom: auto;
+  margin-top: 5%;
+  margin-left: -68%;
+ 
 }
-h5{
+h6{
   max-width: max-content;
-  margin-top: -105px;
+  margin-bottom: auto;
   padding: 25px 50px;
   margin-left: -30px;
   align-items: center;
   position: absolute;
   font-family: cursive;
   text-align: center;
-  font-size: 25px;  
+  font-size: 125px;  
 
 }
 
@@ -118,7 +149,7 @@ h5{
     margin-top: 0;
     padding: 0;
     border-style: double;
-    border-color: white;
+    border-color: #d0d0be;
   }
  
  
@@ -129,7 +160,7 @@ h5{
   }
     
 footer {
-  margin-top: -.5%;
+  margin-top: 8.8%;
   padding: 25px 50px;
   background-color:  black;
   display: flex;
@@ -139,7 +170,7 @@ footer {
 }
 
   footer a{
-    color: bisque;
+    color: #d0d0be;
     width: 100%;
     text-decoration: none;
     justify-content: space-around;
@@ -148,18 +179,18 @@ footer {
 
   footer p {
     font-size: 1.2em;
-    color: bisque;
+    color: #d0d0be;
 }
     
 footer p a:hover {
-  color: bisque;
+  color: #d0d0be;
     text-decoration: underline;
 }
 
 
 .social img{
     padding-top: 20px;
-    margin-bottom: 10%;
+    margin-bottom: -10%;
 }
     
   
